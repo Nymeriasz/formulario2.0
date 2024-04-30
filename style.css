@@ -1,0 +1,43 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(-120deg, #481875, #11031f);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: white;
+    width: 50%; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+}
+hr {
+    width: 100%; 
+    border: none; 
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 20px;
+}
+form input[type="text"],
+form input[type="email"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+}
